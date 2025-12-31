@@ -1,0 +1,32 @@
+.text-node-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text-node-label {
+  font-size: 10px;
+  color: #6b7280;
+  margin-bottom: 2px;
+}
+
+.text-node-textarea {
+  width: 100%;
+  min-width: 150px; 
+  min-height: 40px; 
+  border: 1px solid #ddd6fe;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  resize: none; 
+  overflow: hidden;
+  outline: none;
+  transition: border-color 0.2s;
+  background-color: #fdfdff;
+}
+
+.text-node-textarea:focus {
+  border-color: #7c3aed;
+  background-color: #ffffff;
+}
